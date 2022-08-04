@@ -5,7 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "typeorm": "typeorm-ts-node-commonjs"
+    "build": "tsc",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "start": "node dist/server.js",
+    "migration:run": "typeorm-ts-node-commonjs migration:run -d src/data-source.ts"
   },
   "dependencies": {
     "@types/bcrypt": "^5.0.0",
