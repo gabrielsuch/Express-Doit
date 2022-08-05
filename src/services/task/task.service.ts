@@ -35,12 +35,12 @@ class TaskService {
         return {status: 200, message: tasks}
     }
 
-    createTask = async ({validated}: Request) => {
+    createTask = async ({decoded, validated}: Request) => {
         const taskRepository = AppDataSource.getRepository(Task)
         const userRepository = AppDataSource.getRepository(User)
 
         const user = await userRepository.findOneBy({
-            email: validated["decoded"]
+            email: decoded
         })
 
         const task = new Task()
