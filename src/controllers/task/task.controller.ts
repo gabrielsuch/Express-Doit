@@ -27,6 +27,12 @@ class TaskController {
 
         return res.status(task.status).json(task.message)
     }
+
+    updateProgress = async (req: Request, res: Response) => {
+        const progress = await TaskService.updateProgress(req)
+
+        return res.status(progress.status).json(progress.message)
+    }
 }
 
 

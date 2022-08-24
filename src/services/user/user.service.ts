@@ -23,7 +23,9 @@ class UserService {
         userRepository.create(user)
         await userRepository.save(user)
 
-        return {status: 201, message: user}
+        const {password, ...removedPassword} = user
+
+        return {status: 201, message: removedPassword}
     }
 
     login = async ({validated}: Request) => {

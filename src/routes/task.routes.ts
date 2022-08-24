@@ -18,6 +18,7 @@ const taskRoute = () => {
     route.get("", verifyTokenMiddleware, TaskController.getTasks)
     route.post("", verifyTokenMiddleware, validateSchemaMiddleware(createTaskSchema), TaskController.createTask)   
     route.delete("/:id", verifyTokenMiddleware, validateUUIDMiddleware, verifyOwnerTaskMiddleware, TaskController.deleteTask) 
+    route.patch("/progress/:id", verifyTokenMiddleware, validateUUIDMiddleware, verifyOwnerTaskMiddleware, TaskController.updateProgress)
 
     return route
 }
