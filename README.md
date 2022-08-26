@@ -80,11 +80,7 @@
 }
 ```
 
-#
-
 ## `Possíveis errors durante a Requisição: `
-
-#
 
 ### `Status 400 - Bad Request: `
 
@@ -155,11 +151,7 @@ No Body
 }
 ```
 
-#
-
 ## `Possíveis erros durante a Requisição: `
-
-#
 
 ### `Status 400 - Bad Request: `
 
@@ -279,11 +271,7 @@ No Body
 }
 ```
 
-#
-
 ## `Possíveis erros durante a Requisição: `
-
-#
 
 ### `Status 400 - Bad Request: `
 
@@ -336,11 +324,7 @@ No Body
 }
 ```
 
-# 
-
 ## `Possíveis erros durante a Requisição: `
-
-#
 
 ### `Status 400 - Bad Request: `
 
@@ -403,11 +387,7 @@ No Body
 No body returned for response
 ```
 
-#
-
 ## `Possíveis erros durante a Requisição: `
-
-#
 
 ### `Status 400 - Bad Request: `
 
