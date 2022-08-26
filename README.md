@@ -38,7 +38,6 @@
 	"id": "376a204b-8013-4e24-ae33-cd884d1386d8"
 }
 ```
-#
 
 ## `Possíveis erros durante a Requisição:`
 
