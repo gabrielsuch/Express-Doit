@@ -30,6 +30,7 @@ class TaskService {
                                         .where("user.id = :id", {
                                             id: user.id
                                         })
+                                        .orderBy("date", "DESC")
                                         .getOne()
  
         return {status: 200, message: tasks.tasks}
