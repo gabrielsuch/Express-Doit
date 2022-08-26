@@ -39,6 +39,8 @@
 }
 ```
 
+#
+
 ## `Possíveis erros durante a Requisição:`
 
 ### `Status 400 - Bad Request:`
@@ -79,6 +81,8 @@
 	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1bHVAbWFpbC5jb20iLCJpYXQiOjE2NjE0NzQzMTUsImV4cCI6MTY2MTQ4NTExNX0.nP3MCbv9tVGm0HpPmYPy7kyDeG4IgAfABu-kZNjRw0U"
 }
 ```
+
+#
 
 ## `Possíveis errors durante a Requisição: `
 
@@ -150,6 +154,8 @@ No Body
 	"progress": 0
 }
 ```
+
+#
 
 ## `Possíveis erros durante a Requisição: `
 
@@ -232,8 +238,6 @@ No Body
 
 ## `POST /task - Formato da Requisição - Token de usuário inválido: `
 
-<br>
-
 ### `Status 400 - Bad Request: `
 
 ```json
@@ -270,6 +274,8 @@ No Body
 	"progress": 0
 }
 ```
+
+#
 
 ## `Possíveis erros durante a Requisição: `
 
@@ -323,6 +329,8 @@ No Body
 	"progress": 5
 }
 ```
+
+#
 
 ## `Possíveis erros durante a Requisição: `
 
@@ -386,6 +394,8 @@ No Body
 ```json
 No body returned for response
 ```
+
+#
 
 ## `Possíveis erros durante a Requisição: `
 
