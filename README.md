@@ -42,8 +42,6 @@
 
 ## `Possíveis erros durante a Requisição:`
 
-#
-
 ### `Status 400 - Bad Request:`
 
 ```json
