@@ -117,9 +117,7 @@
 
 ## `GET /task/:task_id - Formato da Requisição - Token de usuário inválido: `
 
-```json
-No Body
-```
+	No Body
 
 ### `Status 400 - Bad Request: `
 
@@ -139,9 +137,7 @@ No Body
 
 ## `GET /task/:task_id - Formato da Requisição - Token de usuário válido: `
 
-```json
-No Body
-```
+	No Body
 
 ### `Status 200 - OK: `
 
@@ -187,9 +183,7 @@ No Body
 
 ## `GET /task - Formato da Requisição - Token de usuário inválido: `
 
-```json
-No Body
-```
+	No Body
 
 ### `Status 400 - Bad Request: `
 
@@ -209,9 +203,7 @@ No Body
 
 ## `GET /task - Formato da Requisição - Token de usuário válido: `
 
-```json
-No Body
-```
+	No Body
 
 ### `Status 200 - OK: `
 
@@ -314,9 +306,7 @@ No Body
 
 ## `PATCH /task/progress/:task_id - Formato da Requisição - Token de usuário válido: `
 
-```json
-No Body
-```
+	No Body
 
 ### `Status 200 - OK: `
 
@@ -363,9 +353,7 @@ No Body
 
 ## `DELETE /task/:task_id - Formato da Requisição - Token de usuário inválido: `
 
-```json
-No Body
-```
+	No Body
 
 ### `Status 400 - Bad Request: `
 
@@ -385,15 +373,11 @@ No Body
 
 ## `DELETE /task/:task_id - Formato da Requisição - Token de usuário válido: `
 
-```json
-No Body
-```
+	No Body
 
 ### `Status 204 - No Content: `
 
-```json
-No body returned for response
-```
+	No body returned for response
 
 #
 
