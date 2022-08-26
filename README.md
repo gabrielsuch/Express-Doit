@@ -15,7 +15,13 @@
 
 #
 
-## Link da API: https://doit-backend.herokuapp.com
+## Este projeto foi desenvolvido como um Full-Stack, esta é a parte do Back-end, o código do Front-end, você pode conferir no link abaixo.
+
+## Link da Aplicação Front-end: https://github.com/gabrielsuch/React-Doit
+
+#
+
+## Link para o uso da API: https://doit-backend.herokuapp.com
 
 # ***User***
 
