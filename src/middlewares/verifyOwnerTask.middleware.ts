@@ -28,7 +28,7 @@ const verifyOwnerTaskMiddleware = async (req: Request, res: Response, next: Next
     }
 
     if(!(task.user.id === user.id)) {
-        return res.status(404).json({error: "This Task doesn't belong for this user."})
+        return res.status(422).json({error: "This Task doesn't belong for this user."})
     }
 
     return next()
