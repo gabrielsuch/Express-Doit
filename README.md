@@ -15,14 +15,7 @@
 
 #
 
-## **Documentação da API - Doit**
-
-
-<br>
-
 ## Link da API: https://doit-backend.herokuapp.com
-
-#
 
 # ***User***
 
